@@ -1,8 +1,8 @@
 ---
 layout: project
 distro	: Ubuntu
-Tema 	: -
-Ikon	: -
+Tema 	: 
+Ikon	: 
 Ekstra	:
 - conky
 - urxvt
