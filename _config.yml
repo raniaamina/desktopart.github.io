@@ -13,9 +13,9 @@ permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#ff6200" #"#F70031" 
+  primary: "#0d0d0d" #"#F70031" 
   primary_rgb: "153, 59, 0" #"#5c5c5c" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
-  secondary: "#cc4e00" #"#33004D"
+  secondary: "#4d4d4d" #"#33004D"
   link: "#e65800"
   link_hover: "#ffb080"
   footer_heading: "#ffffff"
