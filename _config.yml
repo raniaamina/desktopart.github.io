@@ -1,0 +1,57 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: Desktopart.
+description: "Galeri Desktop GNU/Linux"
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "http://desktopart.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#1a1a1a" #"#F70031" 
+  primary_rgb: "153, 59, 0" #"#5c5c5c" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  secondary: "#4d4d4d" #"#33004D"
+  link: "#e65800"
+  link_hover: "#8c8c8c"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+  
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: dribbble
+    url:
+  - title: facebook
+    url: https://www.facebook.com/groups/linuxart/
+  - title: twitter
+    url: https://twitter.com/#
+  - title: instagram
+    url: https://www.instagram.com/#
+  - title: tumblr
+    url: 
+    
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines: 
+    - Jl. Tirta Marta, 79a,
+    - Sleman,
+    - D. I Yogyakarta.
+email: reaamina@gmail.com
+tel: +62 89614-090180
+
+    
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: " Galeri Desktop GNU/Linux merupakan wadah untuk mengapresiasi kreasi-kreasi desktop sekaligus sebagai media pembelajaran seputar free open source software"
+
+# Testimonial content. Shown on Home and About page. 
+testimonial:
+    message: " Free open source souftware for open mind generation "
+    author: Rania Amina
+    position: Free for Freedom - desktopart.github.io
