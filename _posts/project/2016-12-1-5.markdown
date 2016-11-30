@@ -1,0 +1,16 @@
+---
+layout: project
+distro	: Ubuntu
+Tema 	: 
+Ikon	: 
+Ekstra	:
+- conky
+- urxvt
+- openbox
+tag 	: Ubuntu
+kreator: Mumad Apsya Dira
+tanggal: 2016-12-01
+categories:
+- project
+img: 5.jpg
+---

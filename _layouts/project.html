@@ -22,21 +22,39 @@ layout: default
             <div class="hline"></div>
            <table cellpadding="30">
                 <tr>
-                    <td><b>Judul</b></td>
+                    <td><b>distro</b></td>
                     <td>:</td>
-                    <td>{{ page.judul }}</td>
+                    <td>{{ page.distro }}</td>
                 </tr>
                 <tr> </tr>
-                <tr>
-                    <td><b>Tanggal</b></td>
+		<tr>
+                    <td><b>tema</b></td>
                     <td>:</td>
-                    <td>{{ page.tanggal | date: "%b %-d, %Y" }}</td>
+                    <td>{{ page.tema }}</td>
+                </tr>
+                <tr> </tr>
+		<tr>
+                    <td><b>ikon</b></td>
+                    <td>:</td>
+                    <td>{{ page.ikon }}</td>
+                </tr>
+                <tr> </tr>
+		<tr>
+                    <td><b>ekstra</b></td>
+                    <td>:</td>
+                    <td>{{ page.ekstra }}</td>
                 </tr>
                 <tr> </tr>
                 <tr>
                     <td><b>Kreator</b></td>
                     <td>:</td>
                     <td>{{ page.kreator }}</td>
+                </tr>
+                <tr> </tr>
+                <tr>
+                    <td><b>Tanggal</b></td>
+                    <td>:</td>
+                    <td>{{ page.tanggal | date: "%b %-d, %Y" }}</td>
                 </tr>
                 <tr> </tr>
                 <tr>
