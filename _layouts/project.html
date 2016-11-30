@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mt">
+    <div class="row">
+
+        {% include carousel.html %}
+
+        <div class="col-lg-5 col-lg-offset-1">
+            <div class="spacing"></div>
+
+           <img class="img-responsive" src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img }}">
+            {{ content }}
+
+        </div>
+        <div class="col-lg-4 col-lg-offset-1">
+            <div class="spacing"></div>
+            <h4>Detil Proyek</h4>
+            <div class="hline"></div>
+           <table cellpadding="30">
+                <tr>
+                    <td><b>Judul</b></td>
+                    <td>:</td>
+                    <td>{{ page.judul }}</td>
+                </tr>
+                <tr> </tr>
+                <tr>
+                    <td><b>Tanggal</b></td>
+                    <td>:</td>
+                    <td>{{ page.tanggal | date: "%b %-d, %Y" }}</td>
+                </tr>
+                <tr> </tr>
+                <tr>
+                    <td><b>Kreator</b></td>
+                    <td>:</td>
+                    <td>{{ page.kreator }}</td>
+                </tr>
+                <tr> </tr>
+                <tr>
+                    <td><b>Tag</b></td>
+                    <td>:</td>
+                    <td>{{ page.tag }}</td>
+                </tr>
+            </table>
+        </div>
+    </div><! --/row -->
+</div><! --/container -->
+	 
+{% include portfolio.html title="Karya-Karya Lain" limit=5 %}
