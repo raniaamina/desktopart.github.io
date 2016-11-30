@@ -1,0 +1,16 @@
+---
+layout: project
+distro	: -
+Tema 	: -
+Ikon	: -
+Ekstra	:
+- openbox
+- rxvt
+- tint2
+tag 	: UNKNOWN
+kreator: ‎Wanda Agustiansyah R‎ 
+tanggal: 2016-12-01
+categories:
+- project
+img: 2.jpg
+---

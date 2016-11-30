@@ -1,0 +1,14 @@
+---
+layout: project
+distro	: Fedora
+Tema 	: Adapta-Nokto [GTK2], Arc-Darker [GTK3] 
+Ikon	: Sardi Gold Ghost Flexible
+Ekstra	:
+- Paper (WM Theme)
+tag 	: Fedora
+kreator: ‎Doni Gwyneth Ramdhani‎ 
+tanggal: 2016-12-01
+categories:
+- project
+img: 4.jpg
+---

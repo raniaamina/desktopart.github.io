@@ -1,0 +1,14 @@
+---
+layout: project
+distro	: elementaryOS
+Tema 	: os x by kymxlo (edited)
+Ikon	: repak delta icon & radius theme kohlewrk & boston icon on paper icons 
+Ekstra	:
+- plank 
+tag 	: eOS
+kreator: Rahmat Saipul Mujab
+tanggal: 2016-12-01
+categories:
+- project
+img: 3.jpg
+---
