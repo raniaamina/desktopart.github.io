@@ -18,25 +18,42 @@ layout: default
         </div>
         <div class="col-lg-4 col-lg-offset-1">
             <div class="spacing"></div>
-            <h4>Detil Proyek</h4>
+            <h4>Detil Karya</h4>
             <div class="hline"></div>
            <table cellpadding="30">
                 <tr>
-                    <td><b>Judul</b></td>
+                    <td><b>Distro</b></td>
                     <td>:</td>
-                    <td>{{ page.judul }}</td>
+                    <td>{{ page.distro }}</td>
                 </tr>
                 <tr> </tr>
                 <tr>
-                    <td><b>Tanggal</b></td>
+                    <td><b>Tema</b></td>
                     <td>:</td>
-                    <td>{{ page.tanggal | date: "%b %-d, %Y" }}</td>
+                    <td>{{ page.tema }}</td>
+                </tr>
+                <tr>
+                    <td><b>Ikon</b></td>
+                    <td>:</td>
+                    <td>{{ page.ikon }}</td>
+                </tr>
+                <tr> </tr>
+                <tr>
+                    <td><b>Ekstra</b></td>
+                    <td>:</td>
+                    <td>{{ page.ekstra }}</td>
                 </tr>
                 <tr> </tr>
                 <tr>
                     <td><b>Kreator</b></td>
                     <td>:</td>
                     <td>{{ page.kreator }}</td>
+                </tr>
+                <tr> </tr>
+                <tr>
+                    <td><b>Tanggal</b></td>
+                    <td>:</td>
+                    <td>{{ page.tanggal | date: "%b %-d, %Y" }}</td>
                 </tr>
                 <tr> </tr>
                 <tr>
