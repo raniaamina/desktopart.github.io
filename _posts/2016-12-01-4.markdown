@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 4
+date: 2016-12-01
+img: 4.jpg
+alt: image-alt
+project-date: December 2016
+category: Fedora
+description: 
+- Adapta-Nokto [GTK2], Arc-Darker [GTK3] themes
+- Sardi Gold Ghost Flexible icons
+- Paper (wm)
+---
