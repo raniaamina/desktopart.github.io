@@ -3,7 +3,7 @@ layout: default
 distro	: Fedora
 theme 	: Adapta-Nokto [GTK2], Arc-Darker [GTK3] themes
 icon 	: Sardi Gold Ghost Flexible icons
-ekstra 	: Paper (wm)	
+extra 	: Paper (wm)	
 author 	: "Linuxer Desktopart Member"
 facebook : facebook.com
 project-date: December  2016

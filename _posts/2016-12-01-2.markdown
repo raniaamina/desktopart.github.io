@@ -3,7 +3,10 @@ layout: default
 distro	: UNKNOWN
 theme 	: UNKNOWN
 icon 	: UNKNOWN
-ekstra 	: Openbox (WM), rxvt, tint2
+extra 	: 
+- Openbox (WM) 
+- rxvt 
+- tint2
 author 	: "Linuxer Desktopart Member"
 facebook : facebook.com
 project-date: December  2016

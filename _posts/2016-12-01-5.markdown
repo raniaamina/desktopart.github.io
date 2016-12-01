@@ -3,7 +3,10 @@ layout: default
 distro	: Ubuntu
 theme 	: UNKNOWN
 icon 	: UNKNOWN
-ekstra 	: conky, urxvt, openbox	
+extra 	: 
+- conky 
+- urxvt 
+- openbox	
 author 	: "Linuxer Desktopart Member"
 facebook : facebook.com
 project-date: December  2016
