@@ -2,7 +2,7 @@
 layout: default
 modal-id: 5
 date: 2016-12-01
-img: 5.png
+img: 5.jpg
 alt: image-alt
 project-date: December 2016
 category: Ubuntu

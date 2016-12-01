@@ -15,18 +15,38 @@
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+                            <td><b>Distro Name</b></td>
+                            <td>:</td>
+                            <td>{{ page.distro }}
+                            </td></tr>
+                            <tr> </tr>
+                            <tr>
+                            <td><b>Theme</b></td>
+                            <td>:</td>
+                            <td>{{ page.theme }}
+                            </td></tr>
+                            <tr> </tr>
+                            <td><b>Icon</b></td>
+                            <td>:</td>
+                            <td>{{ page.icon }}
+                            </td></tr>
+                            <tr> </tr>
+                            <td><b>Extras</b></td>
+                            <td>:</td>
+                            <td>{{ page.extra }}
+                            </td></tr>
+                            <tr> </tr>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                <li>Author:
+                                    <strong><a href="{{ post.facebook }}">{{ post.author }}</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                    <strong>{{ post.project-date }}
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                <li>Distro:
+                                    <strong><a>{{ post.category }}</a>
                                     </strong>
                                 </li>
                             </ul>
