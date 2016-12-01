@@ -1,0 +1,16 @@
+---
+layout: default
+distro	: Ubuntu
+theme 	: custom
+icon 	: custom
+extra 	: conky, gnome3	
+author 	: "Linuxer Desktopart Member"
+facebook : facebook.com
+project-date: December  2016
+modal-id: 5
+date: 2016-12-01
+img: fail01.png
+alt: image-alt
+category: Ubuntu
+---
+
