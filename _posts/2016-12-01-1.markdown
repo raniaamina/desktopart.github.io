@@ -1,16 +1,15 @@
 ---
 layout: default
-author : Linuxer Desktopart Member
+distro	: Kali Linux
+theme 	: Flat Remix theme
+icon 	: Boston Icon
+ekstra 	: conky	
+author 	: "Linuxer Desktopart Member"
 facebook : facebook.com
+project-date: December  2016
 modal-id: 1
 date: 2016-12-01
 img: 1.jpg
 alt: image-alt
-project-date: December  2016
 category: Kali Linux
-distro : Kali Linux
-theme : Flat Rmix theme
-icon : Boston Icon
-ekstra : conky
-
 ---

@@ -1,13 +1,19 @@
 ---
 layout: default
+distro	: UNKNOWN
+theme 	: UNKNOWN
+icon 	: UNKNOWN
+ekstra 	: 
+- Openbox (WM)
+- rxvt
+- tint2
+author 	: "Linuxer Desktopart Member"
+facebook : facebook.com
+project-date: December  2016
 modal-id: 2
 date: 2016-12-01
 img: 2.jpg
 alt: image-alt
-project-date: December 2016
 category: Unknown Distro
-description: 
-- Openbox (WM)
-- rxvt
-- tint2
 ---
+

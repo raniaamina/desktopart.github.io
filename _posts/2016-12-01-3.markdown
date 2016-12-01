@@ -1,13 +1,16 @@
 ---
 layout: default
+distro	: elementaryOS
+theme 	: os x by kymxlo (edited)
+icon 	: repack delta icon & radius theme kohlewrk & boston icon on paper icons
+ekstra 	: plank
+author 	: "Linuxer Desktopart Member"
+facebook : facebook.com
+project-date: December  2016
 modal-id: 3
 date: 2016-12-01
 img: 3.jpg
 alt: image-alt
-project-date: December 2016
 category: elementaryOS
-description: 
-- os x by kymxlo (edited) theme
-- repack delta icon & radius theme kohlewrk & boston icon on paper icons
-- plank
 ---
+

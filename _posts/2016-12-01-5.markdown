@@ -1,13 +1,19 @@
 ---
 layout: default
+distro	: Ubuntu
+theme 	: UNKNOWN
+icon 	: UNKNOWN
+ekstra 	: 
+- conky
+- urxvt
+- openbox	
+author 	: "Linuxer Desktopart Member"
+facebook : facebook.com
+project-date: December  2016
 modal-id: 5
 date: 2016-12-01
 img: 5.jpg
 alt: image-alt
-project-date: December 2016
 category: Ubuntu
-description: 
-- conky
-- urxvt
--openbox
 ---
+
