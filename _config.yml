@@ -1,57 +1,62 @@
-### GENERAL SETTINGS ###
-
 # Site settings
-title: Desktopart.
-description: "Galeri Desktop GNU/Linux"
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "" #important: start with /
-url: "http://desktopart.github.io"
+title: Desktopart
+email: reaamina@gmail.com
+url: https://desktopart.github.io
+description: "GNU/Linux Desktop gallery"
+skills: "Web Developer - Graphic Artist - User Experience Designer"
+meta_author: Rania Amina
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Dr. Henry Jekyll
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Credits content
+credits: 'Desktopart is your place to share and learn all about GNU/LInux Desktop tweak and midification</a>.'
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title
-excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
-
-colors:  #in hex code if not noted else
-  primary: "#1a1a1a" #"#F70031" 
-  primary_rgb: "153, 59, 0" #"#5c5c5c" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
-  secondary: "#4d4d4d" #"#33004D"
-  link: "#e65800"
-  link_hover: "#8c8c8c"
-  footer_heading: "#ffffff"
-  footer_content: "#bfc9d3"
-  
-  
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
-social:
-  - title: dribbble
-    url:
-  - title: facebook
-    url: https://www.facebook.com/groups/linuxart/
-  - title: twitter
-    url: https://twitter.com/#
-  - title: instagram
-    url: https://www.instagram.com/#
-  - title: tumblr
-    url: 
-    
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines: 
-    - Jl. Tirta Marta, 79a,
-    - Sleman,
-    - D. I Yogyakarta.
-email: reaamina@gmail.com
-tel: +62 89614-090180
-
-    
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: " Galeri Desktop GNU/Linux merupakan wadah untuk mengapresiasi kreasi-kreasi desktop sekaligus sebagai media pembelajaran seputar free open source software"
-
-# Testimonial content. Shown on Home and About page. 
-testimonial:
-    message: " Free open source souftware for open mind generation "
-    author: Rania Amina
-    position: Free for Freedom - desktopart.github.io
+permalink: pretty
